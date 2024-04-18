@@ -1,0 +1,35 @@
+.header-sec:hover{
+    color: white;
+}
+
+header{
+    cursor: pointer;
+}
+
+.your-library svg:hover , .your-library-text:hover{
+    color: white;
+    cursor: pointer;
+}
+
+footer button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.song-box:hover{
+    background: #2b2b2b;
+}
+
+.box-footer-items div:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.box-footer-items div:nth-child(1):hover{
+    cursor: default;
+}
+
+.song-box:hover .play-button{
+    transform: translate(0, -25px);
+    opacity: 100%;
+}
